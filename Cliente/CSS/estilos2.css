@@ -1,0 +1,108 @@
+body{
+    background-color:#FDFFB6;
+}
+h1{
+    color: rgb(26, 26, 92);
+    font-family: 'Trocchi';
+    text-align: center;
+    font-size: 40px;
+    }
+h2{
+    color: rgb(26, 26, 92);
+    font-family: 'Trocchi';
+    text-align: left;
+    font-size: 30px;
+}
+h4{
+    color: rgb(26, 26, 92);
+    font-family: 'Trocchi';
+    text-align: left;
+    font-size: 20px;
+}
+label{
+    color: rgb(26, 26, 92);
+    font-family: 'Trocchi';
+    text-align: left;
+    font-size: 15px;
+}
+p{
+    color: rgb(26, 26, 92);
+    background-color: #FFFFFC;
+    text-align: justify;
+    width: 60%;
+    padding: 20px;
+}
+ul{
+    list-style-type: none;
+    background-color: #A0C4FF;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    
+}
+li{
+    float: left;
+}
+a{
+    background-color: #A0C4FF;
+    color: #FFFFFC;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+    font-family: 'Trocchi';
+    font-size: 25px;
+}
+a:hover{
+    background-color: #9BF6FF;
+}
+
+li a{
+    display: block;
+    color: #FFFFFC;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+    font-family: 'Trocchi';
+    font-size: 25px;
+}
+li p{
+    display: block;
+    text-decoration: none;
+    color: #FFFFFC;
+    text-align: center;
+    padding: 0px;
+    font-family: 'Trocchi', serif;
+    font-size: 20px;
+}
+li a:hover{
+    background-color: #9BF6FF;
+}
+table, th, td{
+    border: 1px solid rgb(26, 26, 92); 
+    border-collapse: collapse;
+    /*border-spacing: 5px;*/
+    padding: 7px;
+}
+caption{
+    color: rgb(26, 26, 92);
+    font-family: 'Trocchi', serif;
+    font-size: 45px;
+    line-height: 70px;
+}
+th{
+    color: #FFFFFC;
+    font-family: 'Trocchi', serif;
+    background-color: #A0C4FF;
+}
+/*rengolnes pares*/
+tr:nth-child(even){
+    color: rgb(26, 26, 92);
+    font-family: 'Trocchi', serif;
+    background-color: #FFFFFC;
+}
+/*rengolnes impares*/
+tr:nth-child(odd){
+    color: rgb(26, 26, 92);
+    font-family: 'Trocchi', serif;
+    background-color: #9BF6FF;
+}
